@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>HLS</DisplayName>
+    <Description>HLS (Haskell Language Server) provides features like code completion, "go to definition", linting, formatting and refactoring for many code editors, including Visual Studio Code, Vim and Emacs.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2021-11-09</ReleaseDate>
+    <SortingPriority>1</SortingPriority>
+    <ExpandedByDefault>true</ExpandedByDefault>
+</Package>
