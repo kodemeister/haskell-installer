@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>GHC</DisplayName>
-    <Description>GHC (Glasgow Haskell Compiler) is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell.</Description>
-    <Version>1.0.0</Version>
-    <ReleaseDate>2021-11-09</ReleaseDate>
-    <SortingPriority>4</SortingPriority>
-    <ExpandedByDefault>true</ExpandedByDefault>
+  <DisplayName>GHC</DisplayName>
+  <Description>GHC (Glasgow Haskell Compiler) is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell.</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2021-11-09</ReleaseDate>
+  <SortingPriority>4</SortingPriority>
+  <ExpandedByDefault>true</ExpandedByDefault>
 </Package>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>Stack</DisplayName>
-    <Description>Stack is a tool for developing Haskell projects. It is aimed at Haskellers both new and experienced.</Description>
-    <Version>1.0.0</Version>
-    <ReleaseDate>2021-11-09</ReleaseDate>
-    <SortingPriority>2</SortingPriority>
-    <ExpandedByDefault>true</ExpandedByDefault>
+  <DisplayName>Stack</DisplayName>
+  <Description>Stack is a tool for developing Haskell projects. It is aimed at Haskellers both new and experienced.</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2021-11-09</ReleaseDate>
+  <SortingPriority>2</SortingPriority>
+  <ExpandedByDefault>true</ExpandedByDefault>
 </Package>
