@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "globals": {
+    "QDesktopServices": "readonly",
+    "QFileDialog": "readonly",
+    "QInstaller": "readonly",
+    "QMessageBox": "readonly",
+    "buttons": "readonly",
+    "component": "readonly",
+    "gui": "readonly",
+    "installer": "readonly",
+    "print": "readonly",
+    "systemInfo": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "no-unused-vars": ["error", {"varsIgnorePattern": "^Component$"}]
+  }
+}
