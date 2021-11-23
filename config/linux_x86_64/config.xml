@@ -10,7 +10,8 @@
   <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
   <RemoteRepositories>
     <Repository>
-      <Url>http://localhost:8080/repositories/common</Url>
+      <DisplayName>Haskell main online repository</DisplayName>
+      <Url>http://localhost:8080/repositories/main</Url>
     </Repository>
   </RemoteRepositories>
   <RepositoryCategories>
