@@ -7,4 +7,7 @@
   <SortingPriority>4</SortingPriority>
   <Script>installscript.js</Script>
   <ExpandedByDefault>true</ExpandedByDefault>
+  <RepositoryUpdate>
+    <Repository action="add" url="../ghc-9.2.1" displayname="GHC 9.2.1 online repository" category="Latest releases"/>
+  </RepositoryUpdate>
 </Package>

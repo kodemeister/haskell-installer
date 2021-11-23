@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
   <Name>Haskell</Name>
-  <Version>0.1.0</Version>
+  <Version>1.0.0</Version>
   <Title>Haskell</Title>
   <Publisher>Haskell.org</Publisher>
   <ProductUrl>https://www.haskell.org</ProductUrl>
@@ -19,24 +19,15 @@
       <DisplayName>Latest releases</DisplayName>
       <Tooltip>Latest stable releases</Tooltip>
       <Preselected>true</Preselected>
-      <Repository>
-        <Url>http://localhost:8080/repositories/linux_x86_64/latest</Url>
-      </Repository>
     </RemoteRepositories>
     <RemoteRepositories>
       <DisplayName>Prereleases</DisplayName>
       <Tooltip>Latest prereleases, including alpha, beta and RC releases</Tooltip>
       <Preselected>true</Preselected>
-      <Repository>
-        <Url>http://localhost:8080/repositories/linux_x86_64/prereleases</Url>
-      </Repository>
     </RemoteRepositories>
     <RemoteRepositories>
       <DisplayName>Older releases</DisplayName>
       <Tooltip>Older stable releases</Tooltip>
-      <Repository>
-        <Url>http://localhost:8080/repositories/linux_x86_64/older</Url>
-      </Repository>
     </RemoteRepositories>
   </RepositoryCategories>
 </Installer>
