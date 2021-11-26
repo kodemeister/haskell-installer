@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.2.1</DisplayName>
+  <Description>GHC 9.2.1 for Linux (64-bit).&lt;br>&lt;br>The build was made on a CentOS 7 system.</Description>
+  <Version>9.2.1</Version>
+  <ReleaseDate>2021-10-29</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>25</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-centos7-linux.tar.xz</Url>
+      <SHA1>57566cbca54b9cd91dccbe923f3730e77ff852b2</SHA1>
+      <CompressedSize>233970940</CompressedSize>
+      <UncompressedSize>2541672213</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.2.1</DisplayName>
+  <Description>GHC 9.2.1 for Linux (ARM 32-bit).&lt;br>&lt;br>The build was made on a Debian 10 "Buster" system and requires GMP 6.0.</Description>
+  <Version>9.2.1</Version>
+  <ReleaseDate>2021-10-29</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>25</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghcup/unofficial-bindists/ghc/9.2.1/ghc-9.2.1-armv7-linux-deb10.tar.xz</Url>
+      <SHA1>09df8803917fae65c10c6575fc6fb7c430546785</SHA1>
+      <CompressedSize>162139000</CompressedSize>
+      <UncompressedSize>1320923312</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.2.1</DisplayName>
+  <Description>GHC 9.2.1 for Alpine Linux (32-bit).</Description>
+  <Version>9.2.1</Version>
+  <ReleaseDate>2021-10-29</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>25</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghcup/unofficial-bindists/ghc/9.2.1/ghc-9.2.1-i386-unknown-linux.tar.xz</Url>
+      <SHA1>43cd22ace7cde08bcf1ffa640cda731ba0750bca</SHA1>
+      <CompressedSize>166236680</CompressedSize>
+      <UncompressedSize>1155852961</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

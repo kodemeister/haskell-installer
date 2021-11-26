@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.2.1</DisplayName>
+  <Description>GHC 9.2.1 for macOS (64-bit).</Description>
+  <Version>9.2.1</Version>
+  <ReleaseDate>2021-10-29</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>25</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-apple-darwin.tar.xz</Url>
+      <SHA1>ec5c93f24746cfefe89a1786458a7e642c906f3a</SHA1>
+      <CompressedSize>122462092</CompressedSize>
+      <UncompressedSize>1212133754</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

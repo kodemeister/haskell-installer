@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.2.1</DisplayName>
+  <Description>GHC 9.2.1 for Windows (64-bit).&lt;br>&lt;br>The build is compatible with Microsoft Windows Vista and later. It also includes support for compiling C++ files.</Description>
+  <Version>9.2.1</Version>
+  <ReleaseDate>2021-10-29</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>25</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-unknown-mingw32.tar.xz</Url>
+      <SHA1>b378c41f915525d275e20b89033c41824da58faa</SHA1>
+      <CompressedSize>502290804</CompressedSize>
+      <UncompressedSize>2991920995</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.2.1</DisplayName>
+  <Description>GHC 9.2.1 for Alpine Linux (64-bit).&lt;br>&lt;br>The build was made on an Alpine Linux 3.12 system.</Description>
+  <Version>9.2.1</Version>
+  <ReleaseDate>2021-10-29</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>25</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.2.1/ghc-9.2.1-x86_64-alpine3.12-linux-gmp.tar.xz</Url>
+      <SHA1>b129c5382bd28a14150d3f62e221c42cad45fe59</SHA1>
+      <CompressedSize>208730976</CompressedSize>
+      <UncompressedSize>2213197788</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>
