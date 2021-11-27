@@ -2,13 +2,16 @@
   "name": "haskell-installer",
   "version": "1.0.0",
   "description": "An installer for the functional language Haskell",
+  "type": "module",
   "scripts": {
     "lint": "npm run lint:check",
-    "lint:check": "eslint packages",
-    "lint:fix": "eslint --fix packages",
+    "lint:check": "eslint packages scripts",
+    "lint:fix": "eslint --fix packages scripts",
     "format": "npm run format:fix",
-    "format:check": "prettier --check packages",
-    "format:fix": "prettier --write packages"
+    "format:check": "prettier --check packages scripts",
+    "format:fix": "prettier --write packages scripts",
+    "build": "npm run build:repositories",
+    "build:repositories": "node scripts/build-repositories.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,9 @@
     "url": "https://github.com/kodemeister/haskell-installer/issues"
   },
   "homepage": "https://github.com/kodemeister/haskell-installer#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
   "devDependencies": {
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
