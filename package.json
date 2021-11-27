@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "An installer for the functional language Haskell",
   "scripts": {
-    "lint": "eslint packages",
-    "format": "prettier --write packages"
+    "lint": "npm run lint:check",
+    "lint:check": "eslint packages",
+    "lint:fix": "eslint --fix packages",
+    "format": "npm run format:fix",
+    "format:check": "prettier --check packages",
+    "format:fix": "prettier --write packages"
   },
   "repository": {
     "type": "git",
