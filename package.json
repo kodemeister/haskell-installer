@@ -11,7 +11,8 @@
     "format:check": "prettier --check packages scripts",
     "format:fix": "prettier --write packages scripts",
     "build": "npm run build:repositories",
-    "build:repositories": "node scripts/build-repositories.js"
+    "build:repositories": "node scripts/build-repositories.js",
+    "start": "npx http-server build"
   },
   "repository": {
     "type": "git",
