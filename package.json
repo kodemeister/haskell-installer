@@ -12,7 +12,7 @@
     "format:fix": "prettier --write packages scripts",
     "build": "npm run build:repositories",
     "build:repositories": "node scripts/build-repositories.js",
-    "start": "npx http-server build"
+    "start": "npx http-server build/repositories"
   },
   "repository": {
     "type": "git",
