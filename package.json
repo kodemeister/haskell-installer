@@ -10,8 +10,9 @@
     "format": "npm run format:fix",
     "format:check": "prettier --check packages scripts",
     "format:fix": "prettier --write packages scripts",
-    "build": "npm run build:repositories",
+    "build": "npm run build:repositories && npm run build:installer",
     "build:repositories": "node scripts/build-repositories.js",
+    "build:installer": "node scripts/build-installer.js",
     "start": "npx http-server build/repositories"
   },
   "repository": {

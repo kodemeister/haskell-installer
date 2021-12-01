@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
   <Name>Haskell</Name>
-  <Version>1.0.0</Version>
+  <Version>@VERSION@</Version>
   <Title>Haskell</Title>
   <Publisher>Haskell.org</Publisher>
   <ProductUrl>https://www.haskell.org</ProductUrl>
@@ -11,7 +11,7 @@
   <RemoteRepositories>
     <Repository>
       <DisplayName>Haskell main online repository</DisplayName>
-      <Url>http://localhost:8080/repositories/main</Url>
+      <Url>@ONLINE_REPOSITORY_URL@/main</Url>
     </Repository>
   </RemoteRepositories>
   <RepositoryCategories>
