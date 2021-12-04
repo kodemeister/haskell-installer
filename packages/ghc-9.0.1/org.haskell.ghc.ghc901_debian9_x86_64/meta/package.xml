@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.0.1</DisplayName>
+  <Description>GHC 9.0.1 for Linux (64-bit).&lt;br>&lt;br>The build was made on a Debian 9 "Stretch" system and requires GMP 6.0.</Description>
+  <Version>9.0.1</Version>
+  <ReleaseDate>2021-02-04</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>24</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.0.1/ghc-9.0.1-x86_64-deb9-linux.tar.xz</Url>
+      <SHA1>324c47d98b80a55828d4e70701ed5894d33e8f5f</SHA1>
+      <CompressedSize>217978008</CompressedSize>
+      <UncompressedSize>2178966764</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

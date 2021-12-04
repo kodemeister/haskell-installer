@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.0.1</DisplayName>
+  <Description>GHC 9.0.1 for FreeBSD (64-bit).&lt;br>&lt;br>The build was made on a FreeBSD 12 system.</Description>
+  <Version>9.0.1</Version>
+  <ReleaseDate>2021-02-04</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>24</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.0.1/ghc-9.0.1-x86_64-portbld-freebsd.tar.xz</Url>
+      <SHA1>90765eec8f061f0d85d04c1e61dcfa83a5511b88</SHA1>
+      <CompressedSize>182101956</CompressedSize>
+      <UncompressedSize>1875378177</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.0.1</DisplayName>
+  <Description>GHC 9.0.1 for Linux (64-bit).&lt;br>&lt;br>The build was made on a Fedora 27 system and requires GMP 6.1.</Description>
+  <Version>9.0.1</Version>
+  <ReleaseDate>2021-02-04</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>24</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.0.1/ghc-9.0.1-x86_64-fedora27-linux.tar.xz</Url>
+      <SHA1>51456ef7b49a413edded28e678535fb2f8d0e896</SHA1>
+      <CompressedSize>220795024</CompressedSize>
+      <UncompressedSize>2170222346</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

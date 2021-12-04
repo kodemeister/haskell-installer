@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 9.0.1</DisplayName>
+  <Description>GHC 9.0.1 for Windows (64-bit).</Description>
+  <Version>9.0.1</Version>
+  <ReleaseDate>2021-02-04</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>24</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/9.0.1/ghc-9.0.1-x86_64-unknown-mingw32.tar.xz</Url>
+      <SHA1>9876d3418bae3a21da4f30dceb8e2c5057e3f1cc</SHA1>
+      <CompressedSize>247505048</CompressedSize>
+      <UncompressedSize>2784890908</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

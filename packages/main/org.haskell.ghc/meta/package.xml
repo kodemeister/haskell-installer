@@ -10,5 +10,6 @@
   <ExpandedByDefault>true</ExpandedByDefault>
   <RepositoryUpdate>
     <Repository action="add" url="../ghc-9.2.1" displayname="GHC 9.2.1 online repository" category="Latest releases"/>
+    <Repository action="add" url="../ghc-9.0.1" displayname="GHC 9.0.1 online repository" category="Latest releases"/>
   </RepositoryUpdate>
 </Package>
