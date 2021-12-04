@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.7</DisplayName>
+  <Description>GHC 8.10.7 for Linux (ARM 32-bit).&lt;br>&lt;br>The build was made on a Debian 10 "Buster" system and requires GMP 6.0.</Description>
+  <Version>8.10.7</Version>
+  <ReleaseDate>2021-08-27</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>23</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-armv7-deb10-linux.tar.xz</Url>
+      <SHA1>6ac3986eaacad063e327df3d4af37bf138cacdcf</SHA1>
+      <CompressedSize>341657856</CompressedSize>
+      <UncompressedSize>2673483580</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

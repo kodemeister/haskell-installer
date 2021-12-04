@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.7</DisplayName>
+  <Description>GHC 8.10.7 for Linux (64-bit).&lt;br>&lt;br>The build was made on a Debian 10 "Buster" system and requires GMP 6.0.</Description>
+  <Version>8.10.7</Version>
+  <ReleaseDate>2021-08-27</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>23</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-deb10-linux.tar.xz</Url>
+      <SHA1>2ae8da620b58e3aef659a18169c8a3cccd55e8dd</SHA1>
+      <CompressedSize>215074252</CompressedSize>
+      <UncompressedSize>2196821131</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

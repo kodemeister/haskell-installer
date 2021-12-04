@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.7</DisplayName>
+  <Description>GHC 8.10.7 for Linux (64-bit).&lt;br>&lt;br>The build was made on a Fedora 27 system and requires GMP 6.1.</Description>
+  <Version>8.10.7</Version>
+  <ReleaseDate>2021-08-27</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>23</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-fedora27-linux.tar.xz</Url>
+      <SHA1>e5e6a28d442b9b902d4b36e333a22f7c9b8c2a6c</SHA1>
+      <CompressedSize>217724856</CompressedSize>
+      <UncompressedSize>2195298564</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.7</DisplayName>
+  <Description>GHC 8.10.7 for Alpine Linux (64-bit).&lt;br>&lt;br>The build was made on an Alpine Linux 3.10 system. Unlike our other binary distributions, this links against the integer-simple big-integer backend and therefore does not require libgmp.</Description>
+  <Version>8.10.7</Version>
+  <ReleaseDate>2021-08-27</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>23</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.7/ghc-8.10.7-x86_64-alpine3.10-linux-integer-simple.tar.xz</Url>
+      <SHA1>ada797623294e65f6bd6fadbfa3410eebb8e7474</SHA1>
+      <CompressedSize>106033492</CompressedSize>
+      <UncompressedSize>688782051</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>
