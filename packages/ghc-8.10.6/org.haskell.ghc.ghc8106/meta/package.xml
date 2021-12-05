@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>Displays correct GHC 8.10.6 packages for the current platform.</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <Script>installscript.js</Script>
+</Package>

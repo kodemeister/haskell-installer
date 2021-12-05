@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>GHC 8.10.6 for Windows (64-bit).</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>22</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-x86_64-unknown-mingw32.tar.xz</Url>
+      <SHA1>1677cb422920539a5c47c5bc773d83bc1bd1550a</SHA1>
+      <CompressedSize>434114408</CompressedSize>
+      <UncompressedSize>2761108872</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

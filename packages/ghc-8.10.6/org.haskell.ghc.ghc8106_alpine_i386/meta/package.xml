@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>GHC 8.10.6 for Alpine Linux (32-bit).</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>22</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghcup/unofficial-bindists/ghc/8.10.6/ghc-8.10.6-i386-alpine-linux.tar.xz</Url>
+      <SHA1>022ccf72eb81dae01d42f7ce47f0e0a7c6e1da03</SHA1>
+      <CompressedSize>185483128</CompressedSize>
+      <UncompressedSize>1563484232</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

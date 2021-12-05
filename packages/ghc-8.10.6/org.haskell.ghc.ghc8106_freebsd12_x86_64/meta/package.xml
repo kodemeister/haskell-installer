@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>GHC 8.10.6 for FreeBSD (64-bit).&lt;br>&lt;br>The build was made on a FreeBSD 12 system.</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>22</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-x86_64-unknown-freebsd.tar.xz</Url>
+      <SHA1>2f49a98a892c55501cc086c97701ecbc6a04d3b1</SHA1>
+      <CompressedSize>179314504</CompressedSize>
+      <UncompressedSize>1890657133</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

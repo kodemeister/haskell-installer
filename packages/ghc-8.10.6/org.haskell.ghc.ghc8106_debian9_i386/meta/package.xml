@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>GHC 8.10.6 for Linux (32-bit).&lt;br>&lt;br>The build was made on a Debian 9 "Stretch" system and requires libgmp.so.10 (typically GMP 5.x).</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>22</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-i386-deb9-linux.tar.xz</Url>
+      <SHA1>cdf88c84a8d3af31274cd0f2741b5545438569c0</SHA1>
+      <CompressedSize>215823844</CompressedSize>
+      <UncompressedSize>1731099328</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>GHC 8.10.6 for macOS (ARM 64-bit).</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>22</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-aarch64-apple-darwin.tar.xz</Url>
+      <SHA1>3fb49c69bbe3dc24a8b853f48f90a74f7d42ed50</SHA1>
+      <CompressedSize>255584256</CompressedSize>
+      <UncompressedSize>1886367080</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

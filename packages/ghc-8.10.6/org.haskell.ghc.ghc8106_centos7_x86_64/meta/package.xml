@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>GHC 8.10.6</DisplayName>
+  <Description>GHC 8.10.6 for Linux (64-bit).&lt;br>&lt;br>The build was made on a CentOS 7 system.</Description>
+  <Version>8.10.6</Version>
+  <ReleaseDate>2021-08-14</ReleaseDate>
+  <Virtual>true</Virtual>
+  <SortingPriority>22</SortingPriority>
+  <Script>installscript.js</Script>
+  <DownloadableArchives>
+    <DownloadableArchive>
+      <Url>https://downloads.haskell.org/~ghc/8.10.6/ghc-8.10.6-x86_64-centos7-linux.tar.xz</Url>
+      <SHA1>df62ce78fa912c83fab3b4400617b965092f33f2</SHA1>
+      <CompressedSize>203488844</CompressedSize>
+      <UncompressedSize>2131644658</UncompressedSize>
+    </DownloadableArchive>
+  </DownloadableArchives>
+</Package>

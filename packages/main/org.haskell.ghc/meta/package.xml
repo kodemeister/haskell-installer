@@ -9,6 +9,7 @@
   <Checkable>false</Checkable>
   <ExpandedByDefault>true</ExpandedByDefault>
   <RepositoryUpdate>
+    <Repository action="add" url="../ghc-8.10.6" displayname="GHC 8.10.6 online repository" category="Older releases"/>
     <Repository action="add" url="../ghc-8.10.7" displayname="GHC 8.10.7 online repository" category="Latest releases"/>
     <Repository action="add" url="../ghc-9.0.1" displayname="GHC 9.0.1 online repository" category="Latest releases"/>
     <Repository action="add" url="../ghc-9.2.1" displayname="GHC 9.2.1 online repository" category="Latest releases"/>
