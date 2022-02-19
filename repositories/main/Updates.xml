@@ -1,0 +1,71 @@
+<Updates>
+  <ApplicationName>{AnyApplication}</ApplicationName>
+  <ApplicationVersion>1.0.0</ApplicationVersion>
+  <Checksum>true</Checksum>
+  <PackageUpdate>
+    <Name>installer</Name>
+    <DisplayName>Haskell Installer</DisplayName>
+    <Description>Performs the installation of the Haskell toolchain.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2022-02-19</ReleaseDate>
+    <Virtual>true</Virtual>
+    <Script>installscript.js</Script>
+    <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+    <SHA1>@INSTALLER_METADATA_SHA1@</SHA1>
+  </PackageUpdate>
+  <PackageUpdate>
+    <Name>ghc</Name>
+    <DisplayName>GHC</DisplayName>
+    <Description>GHC (Glasgow Haskell Compiler) is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2022-02-19</ReleaseDate>
+    <SortingPriority>5</SortingPriority>
+    <Checkable>false</Checkable>
+    <ExpandedByDefault>true</ExpandedByDefault>
+    <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  </PackageUpdate>
+  <PackageUpdate>
+    <Name>cabal</Name>
+    <DisplayName>Cabal</DisplayName>
+    <Description>Cabal is a tool for building and packaging Haskell libraries and programs.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2022-02-19</ReleaseDate>
+    <SortingPriority>4</SortingPriority>
+    <Checkable>false</Checkable>
+    <ExpandedByDefault>true</ExpandedByDefault>
+    <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  </PackageUpdate>
+  <PackageUpdate>
+    <Name>stack</Name>
+    <DisplayName>Stack</DisplayName>
+    <Description>Stack is a tool for developing Haskell projects. It is aimed at Haskellers both new and experienced.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2022-02-19</ReleaseDate>
+    <SortingPriority>3</SortingPriority>
+    <Checkable>false</Checkable>
+    <ExpandedByDefault>true</ExpandedByDefault>
+    <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  </PackageUpdate>
+  <PackageUpdate>
+    <Name>hls</Name>
+    <DisplayName>HLS</DisplayName>
+    <Description>HLS (Haskell Language Server) provides features like code completion, "go to definition", linting, formatting and refactoring for many code editors, including Visual Studio Code, Vim and Emacs.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2022-02-19</ReleaseDate>
+    <SortingPriority>2</SortingPriority>
+    <Checkable>false</Checkable>
+    <ExpandedByDefault>true</ExpandedByDefault>
+    <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  </PackageUpdate>
+  <PackageUpdate>
+    <Name>tools</Name>
+    <DisplayName>Tools</DisplayName>
+    <Description>Miscellaneous tools for developing Haskell projects.</Description>
+    <Version>1.0.0</Version>
+    <ReleaseDate>2022-02-19</ReleaseDate>
+    <SortingPriority>1</SortingPriority>
+    <Checkable>false</Checkable>
+    <ExpandedByDefault>true</ExpandedByDefault>
+    <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  </PackageUpdate>
+</Updates>
