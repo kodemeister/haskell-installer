@@ -1,0 +1,30 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "globals": {
+    "QDesktopServices": "readonly",
+    "QFileDialog": "readonly",
+    "QInstaller": "readonly",
+    "QMessageBox": "readonly",
+    "buttons": "readonly",
+    "component": "readonly",
+    "console": "readonly",
+    "gui": "readonly",
+    "installer": "readonly",
+    "print": "readonly",
+    "systemInfo": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": ["error", {"varsIgnorePattern": "^Component$"}]
+  }
+}

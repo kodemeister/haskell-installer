@@ -1,0 +1,29 @@
+{
+  "name": "haskell-installer",
+  "version": "1.0.0",
+  "description": "An installer for the functional language Haskell",
+  "type": "module",
+  "scripts": {
+    "lint": "npm run lint:check",
+    "lint:check": "eslint src scripts",
+    "lint:fix": "eslint --fix src scripts",
+    "format": "npm run format:fix",
+    "format:check": "prettier --check src scripts",
+    "format:fix": "prettier --write src scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodemeister/haskell-installer.git"
+  },
+  "author": "Arthur Kasimov",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kodemeister/haskell-installer/issues"
+  },
+  "homepage": "https://github.com/kodemeister/haskell-installer#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  }
+}
