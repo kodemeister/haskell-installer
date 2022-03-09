@@ -9,7 +9,9 @@
     "lint:fix": "eslint --fix src scripts",
     "format": "npm run format:fix",
     "format:check": "prettier --check src scripts",
-    "format:fix": "prettier --write src scripts"
+    "format:fix": "prettier --write src scripts",
+    "build": "npm run build:repositories",
+    "build:repositories": "node scripts/build-repositories.js"
   },
   "repository": {
     "type": "git",
