@@ -12,7 +12,8 @@
     "format:fix": "prettier --write src scripts",
     "build": "npm run build:repositories && npm run build:installer",
     "build:repositories": "node scripts/build-repositories.js",
-    "build:installer": "node scripts/build-installer.js"
+    "build:installer": "node scripts/build-installer.js",
+    "start": "npx http-server build/repositories"
   },
   "repository": {
     "type": "git",
