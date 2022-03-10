@@ -10,8 +10,9 @@
     "format": "npm run format:fix",
     "format:check": "prettier --check src scripts",
     "format:fix": "prettier --write src scripts",
-    "build": "npm run build:repositories",
-    "build:repositories": "node scripts/build-repositories.js"
+    "build": "npm run build:repositories && npm run build:installer",
+    "build:repositories": "node scripts/build-repositories.js",
+    "build:installer": "node scripts/build-installer.js"
   },
   "repository": {
     "type": "git",
